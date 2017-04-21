@@ -15,6 +15,11 @@
 		CD85F6111EA9B6800056DDF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD85F60F1EA9B6800056DDF3 /* LaunchScreen.storyboard */; };
 		CD85F61C1EA9B6810056DDF3 /* LYG_UsefulFragments_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85F61B1EA9B6810056DDF3 /* LYG_UsefulFragments_iOSTests.m */; };
 		CD85F6271EA9B6810056DDF3 /* LYG_UsefulFragments_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85F6261EA9B6810056DDF3 /* LYG_UsefulFragments_iOSUITests.m */; };
+		CD85F6371EA9E3E20056DDF3 /* usefulFrag.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD85F6361EA9E3E20056DDF3 /* usefulFrag.plist */; };
+		CD85F63E1EA9F2720056DDF3 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85F63D1EA9F2720056DDF3 /* Model.m */; };
+		CD85F6431EA9F8290056DDF3 /* hitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85F6421EA9F8290056DDF3 /* hitTestViewController.m */; };
+		CD85F6491EA9F89F0056DDF3 /* ExpandHittableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85F6461EA9F89F0056DDF3 /* ExpandHittableButton.m */; };
+		CD85F64A1EA9F89F0056DDF3 /* ExpandHittableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85F6481EA9F89F0056DDF3 /* ExpandHittableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +42,29 @@
 /* Begin PBXFileReference section */
 		CD85F5FE1EA9B67E0056DDF3 /* LYG_UsefulFragments_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYG_UsefulFragments_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD85F6021EA9B67F0056DDF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CD85F6041EA9B67F0056DDF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CD85F6051EA9B67F0056DDF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD85F6041EA9B67F0056DDF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		CD85F6051EA9B67F0056DDF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		CD85F6071EA9B67F0056DDF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CD85F6081EA9B6800056DDF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CD85F60B1EA9B6800056DDF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CD85F60D1EA9B6800056DDF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD85F60D1EA9B6800056DDF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		CD85F6101EA9B6800056DDF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CD85F6121EA9B6800056DDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD85F6121EA9B6800056DDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		CD85F6171EA9B6810056DDF3 /* LYG_UsefulFragments_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYG_UsefulFragments_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD85F61B1EA9B6810056DDF3 /* LYG_UsefulFragments_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYG_UsefulFragments_iOSTests.m; sourceTree = "<group>"; };
 		CD85F61D1EA9B6810056DDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD85F6221EA9B6810056DDF3 /* LYG_UsefulFragments_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYG_UsefulFragments_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD85F6261EA9B6810056DDF3 /* LYG_UsefulFragments_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYG_UsefulFragments_iOSUITests.m; sourceTree = "<group>"; };
 		CD85F6281EA9B6820056DDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD85F6361EA9E3E20056DDF3 /* usefulFrag.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = usefulFrag.plist; sourceTree = "<group>"; };
+		CD85F63C1EA9F2720056DDF3 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		CD85F63D1EA9F2720056DDF3 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		CD85F6411EA9F8290056DDF3 /* hitTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hitTestViewController.h; sourceTree = "<group>"; };
+		CD85F6421EA9F8290056DDF3 /* hitTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hitTestViewController.m; sourceTree = "<group>"; };
+		CD85F6451EA9F89F0056DDF3 /* ExpandHittableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandHittableButton.h; sourceTree = "<group>"; };
+		CD85F6461EA9F89F0056DDF3 /* ExpandHittableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandHittableButton.m; sourceTree = "<group>"; };
+		CD85F6471EA9F89F0056DDF3 /* ExpandHittableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandHittableView.h; sourceTree = "<group>"; };
+		CD85F6481EA9F89F0056DDF3 /* ExpandHittableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandHittableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +115,12 @@
 		CD85F6001EA9B67E0056DDF3 /* LYG_UsefulFragments_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CD85F6041EA9B67F0056DDF3 /* AppDelegate.h */,
-				CD85F6051EA9B67F0056DDF3 /* AppDelegate.m */,
+				CD85F63F1EA9F7580056DDF3 /* Controller */,
+				CD85F63B1EA9F1BF0056DDF3 /* Model */,
+				CD85F6341EA9E3300056DDF3 /* Application */,
+				CD85F6351EA9E3300056DDF3 /* Resource */,
 				CD85F6071EA9B67F0056DDF3 /* ViewController.h */,
 				CD85F6081EA9B6800056DDF3 /* ViewController.m */,
-				CD85F60A1EA9B6800056DDF3 /* Main.storyboard */,
-				CD85F60D1EA9B6800056DDF3 /* Assets.xcassets */,
-				CD85F60F1EA9B6800056DDF3 /* LaunchScreen.storyboard */,
-				CD85F6121EA9B6800056DDF3 /* Info.plist */,
-				CD85F6011EA9B67F0056DDF3 /* Supporting Files */,
 			);
 			path = LYG_UsefulFragments_iOS;
 			sourceTree = "<group>";
@@ -120,6 +131,7 @@
 				CD85F6021EA9B67F0056DDF3 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		CD85F61A1EA9B6810056DDF3 /* LYG_UsefulFragments_iOSTests */ = {
@@ -138,6 +150,66 @@
 				CD85F6281EA9B6820056DDF3 /* Info.plist */,
 			);
 			path = LYG_UsefulFragments_iOSUITests;
+			sourceTree = "<group>";
+		};
+		CD85F6341EA9E3300056DDF3 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CD85F6041EA9B67F0056DDF3 /* AppDelegate.h */,
+				CD85F6051EA9B67F0056DDF3 /* AppDelegate.m */,
+				CD85F60A1EA9B6800056DDF3 /* Main.storyboard */,
+				CD85F6121EA9B6800056DDF3 /* Info.plist */,
+				CD85F60F1EA9B6800056DDF3 /* LaunchScreen.storyboard */,
+				CD85F6011EA9B67F0056DDF3 /* Supporting Files */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CD85F6351EA9E3300056DDF3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CD85F60D1EA9B6800056DDF3 /* Assets.xcassets */,
+				CD85F6361EA9E3E20056DDF3 /* usefulFrag.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CD85F63B1EA9F1BF0056DDF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD85F63C1EA9F2720056DDF3 /* Model.h */,
+				CD85F63D1EA9F2720056DDF3 /* Model.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CD85F63F1EA9F7580056DDF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD85F6401EA9F7DE0056DDF3 /* hitTest */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD85F6401EA9F7DE0056DDF3 /* hitTest */ = {
+			isa = PBXGroup;
+			children = (
+				CD85F6441EA9F8880056DDF3 /* View */,
+				CD85F6411EA9F8290056DDF3 /* hitTestViewController.h */,
+				CD85F6421EA9F8290056DDF3 /* hitTestViewController.m */,
+			);
+			path = hitTest;
+			sourceTree = "<group>";
+		};
+		CD85F6441EA9F8880056DDF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD85F6451EA9F89F0056DDF3 /* ExpandHittableButton.h */,
+				CD85F6461EA9F89F0056DDF3 /* ExpandHittableButton.m */,
+				CD85F6471EA9F89F0056DDF3 /* ExpandHittableView.h */,
+				CD85F6481EA9F89F0056DDF3 /* ExpandHittableView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +320,7 @@
 			files = (
 				CD85F6111EA9B6800056DDF3 /* LaunchScreen.storyboard in Resources */,
 				CD85F60E1EA9B6800056DDF3 /* Assets.xcassets in Resources */,
+				CD85F6371EA9E3E20056DDF3 /* usefulFrag.plist in Resources */,
 				CD85F60C1EA9B6800056DDF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,8 +347,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD85F6091EA9B6800056DDF3 /* ViewController.m in Sources */,
+				CD85F6431EA9F8290056DDF3 /* hitTestViewController.m in Sources */,
+				CD85F6491EA9F89F0056DDF3 /* ExpandHittableButton.m in Sources */,
+				CD85F64A1EA9F89F0056DDF3 /* ExpandHittableView.m in Sources */,
 				CD85F6061EA9B67F0056DDF3 /* AppDelegate.m in Sources */,
 				CD85F6031EA9B67F0056DDF3 /* main.m in Sources */,
+				CD85F63E1EA9F2720056DDF3 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +394,7 @@
 				CD85F60B1EA9B6800056DDF3 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		CD85F60F1EA9B6800056DDF3 /* LaunchScreen.storyboard */ = {
@@ -325,6 +403,7 @@
 				CD85F6101EA9B6800056DDF3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

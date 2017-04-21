@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>useful</key>
+	<array>
+		<dict>
+			<key>profile</key>
+			<string>hitTest_application 响应者重写hitTest的应用</string>
+			<key>title</key>
+			<string>hitTest_application</string>
+		</dict>
+		<dict>
+			<key>profile</key>
+			<string>NSScanner_application 控制输入框输入内容</string>
+			<key>title</key>
+			<string>NSScanner_application</string>
+		</dict>
+		<dict>
+			<key>profile</key>
+			<string>aaadedef</string>
+			<key>title</key>
+			<string>NSScanner_application</string>
+		</dict>
+		<dict>
+			<key>profile</key>
+			<string>frgthytjuy j</string>
+			<key>title</key>
+			<string>NSScanner_application</string>
+		</dict>
+	</array>
+</dict>
+</plist>
