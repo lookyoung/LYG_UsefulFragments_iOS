@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "model.h"
 #import "hitTestViewController.h"
+#import "InputFieldViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 /** tableView */
@@ -116,7 +117,12 @@ static NSString *cellReuseId = @"cellID";
         }
             
             break;
-            
+        case 1:
+        {
+            InputFieldViewController *inputVC = [[InputFieldViewController alloc] init];
+            [self.navigationController pushViewController:inputVC animated:YES];
+        }
+            break;
         default:
             break;
     }

@@ -20,6 +20,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.navigationItem.title = @"hitTest_application";
+    
     self.view.backgroundColor = [UIColor whiteColor];
     
     ExpandHittableView *viewA = [[ExpandHittableView alloc] initWithFrame:CGRectMake(20, 100, 300, 300)];
@@ -63,7 +65,7 @@
 }
 
 /**
- 
+ http://blog.csdn.net/liuyang11908/article/details/62418047
  1、扩大UIButton的响应热区
  
  相信大家都遇到小图button点击热区太小问题，之前我是用UIButton的setImage方法来设置图片解决，但是调起坐标就坑了，得各种计算不说，写出的代码还很难看不便于维护，如果我们用用hit-test view的知识你就能轻松地解决这个问题。

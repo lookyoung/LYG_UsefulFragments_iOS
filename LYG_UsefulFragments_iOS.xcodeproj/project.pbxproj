@@ -20,6 +20,8 @@
 		CD85F6431EA9F8290056DDF3 /* hitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85F6421EA9F8290056DDF3 /* hitTestViewController.m */; };
 		CD85F6491EA9F89F0056DDF3 /* ExpandHittableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85F6461EA9F89F0056DDF3 /* ExpandHittableButton.m */; };
 		CD85F64A1EA9F89F0056DDF3 /* ExpandHittableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85F6481EA9F89F0056DDF3 /* ExpandHittableView.m */; };
+		CD85F64E1EAA04420056DDF3 /* InputFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85F64D1EAA04420056DDF3 /* InputFieldViewController.m */; };
+		CD85F6511EAA07DC0056DDF3 /* conditionLimitedConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85F6501EAA07DC0056DDF3 /* conditionLimitedConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,10 @@
 		CD85F6461EA9F89F0056DDF3 /* ExpandHittableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandHittableButton.m; sourceTree = "<group>"; };
 		CD85F6471EA9F89F0056DDF3 /* ExpandHittableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandHittableView.h; sourceTree = "<group>"; };
 		CD85F6481EA9F89F0056DDF3 /* ExpandHittableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandHittableView.m; sourceTree = "<group>"; };
+		CD85F64C1EAA04420056DDF3 /* InputFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputFieldViewController.h; sourceTree = "<group>"; };
+		CD85F64D1EAA04420056DDF3 /* InputFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputFieldViewController.m; sourceTree = "<group>"; };
+		CD85F64F1EAA07DC0056DDF3 /* conditionLimitedConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conditionLimitedConfig.h; sourceTree = "<group>"; };
+		CD85F6501EAA07DC0056DDF3 /* conditionLimitedConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = conditionLimitedConfig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +192,7 @@
 		CD85F63F1EA9F7580056DDF3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CD85F64B1EAA034A0056DDF3 /* InputField */,
 				CD85F6401EA9F7DE0056DDF3 /* hitTest */,
 			);
 			path = Controller;
@@ -210,6 +217,17 @@
 				CD85F6481EA9F89F0056DDF3 /* ExpandHittableView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CD85F64B1EAA034A0056DDF3 /* InputField */ = {
+			isa = PBXGroup;
+			children = (
+				CD85F64C1EAA04420056DDF3 /* InputFieldViewController.h */,
+				CD85F64D1EAA04420056DDF3 /* InputFieldViewController.m */,
+				CD85F64F1EAA07DC0056DDF3 /* conditionLimitedConfig.h */,
+				CD85F6501EAA07DC0056DDF3 /* conditionLimitedConfig.m */,
+			);
+			path = InputField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,12 +364,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD85F64E1EAA04420056DDF3 /* InputFieldViewController.m in Sources */,
 				CD85F6091EA9B6800056DDF3 /* ViewController.m in Sources */,
 				CD85F6431EA9F8290056DDF3 /* hitTestViewController.m in Sources */,
 				CD85F6491EA9F89F0056DDF3 /* ExpandHittableButton.m in Sources */,
 				CD85F64A1EA9F89F0056DDF3 /* ExpandHittableView.m in Sources */,
 				CD85F6061EA9B67F0056DDF3 /* AppDelegate.m in Sources */,
 				CD85F6031EA9B67F0056DDF3 /* main.m in Sources */,
+				CD85F6511EAA07DC0056DDF3 /* conditionLimitedConfig.m in Sources */,
 				CD85F63E1EA9F2720056DDF3 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
